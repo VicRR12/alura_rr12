@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador VicRR12</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Inter:wght@100;200;300;400;500;600;700;800;900">
+    
+    </head>
+<body>
+    <header>
+        
+      
+    </header>
+    
+    <main>
+        <div class="logo">
+            <img src="img/Logo.svg" alt="logotipo Alura"></h1>
+
+        </div>
+
+        <section class="frase">
+            <div class="areatexto">
+                <textarea cols="30" rows="10" placeholder="Ingrese texto aqui" class="txtarea" ></textarea>
+            </div>
+            <div class="aviso">
+                <img src="img/alerta.svg" alt="alerta">
+                <p>Solo letras mayúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="validarTexto()">Encriptar</button>
+                
+                <input type="button" class="desencriptar" value="Desencriptar">
+            </div>
+        </section>
+
+        <section class="busqueda">
+            <div class="imgbusqueda">
+                <img src="img/Muñeco.svg" alt="Muñeco">
+            </div>
+            <div class="mensaje">
+                <h3>Ningun mensaje fue <br>encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br>desencriptar</p>
+            </div>
+            <div class="copiar">
+                <button class="btncopiar" onclick="copiar()">Copiar</button>
+            </div>
+            <div class="resultado">
+                
+                <textarea class="txtresultado" cols="15" rows="8"></textarea>
+            </div>
+        </section>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+
+
+</html>
